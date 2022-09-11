@@ -1,0 +1,120 @@
+body { 
+	/*background: url("https://source.unsplash.com/random/");*/
+	/*background-image: url("https://source.unsplash.com/random/");*/
+	/*background-color: #97e6de;*/
+	background-color: rgba(151, 230, 222, 5);
+	/*background-color: rgb(151, 230, 222);*/
+	text-transform: capitalize;
+	text-align: justify;
+	font-size: 1.25em;
+	font-family: "Lato", sans-serif;
+}
+
+#title {
+	/*background-color: #ffffff;*/
+	color: #423199;
+	font-weight: 200;
+	font-family: "Bebas Neue", cursive;
+}
+
+.subtitle{
+	/*background-color: #ebbb6a;*/
+	color: #28734f; 
+	font-family: "Bebas Neue", cursive;
+}
+
+/*#service-image {
+	height: 200px;
+	width: 60%;
+
+	background-image: url("https://source.unsplash.com/random/200x200/");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: black;
+} */
+
+/*GRADIENTS -> transition between two colors*/
+#service-image {
+	height: 300px;
+	width: 50%;
+
+	/*background: linear-gradient(250deg, rgb(255, 46, 0), rgba(255, 46, 0, 0));*/
+	/*background: radial-gradient(circle, red 30%, blue 40%, green 50%);*/
+
+	/*border: 10px solid black;*/
+}
+
+#google-link{
+	text-decoration: line-through;
+}
+
+.italics{ 
+	font-style: italic;
+}
+
+#image1 { 
+	/*height: 300px;
+	width: 40%;*/
+	/*border: 5px dashed rgb(129, 214, 92);*/
+}
+
+#unsplash-image {
+	width: 500px;
+	height: 80%;
+
+	border: 6px solid orange; 
+
+	/*padding : 50px 40px 50px 40px; */
+	padding: 10px;
+	/*margin: 50px 10px 20px 90px; */
+	margin: 100px 40px;
+
+	float: right; 
+	display: block;
+
+	/*border: 3px double red;*/
+	/*border: 5px dotted gray;*/
+	/*border: 3px dashed green;*/
+}
+
+
+/*.site-table{
+	display: inline-block;
+}*/
+
+.container{
+	margin: 10px;
+	height: 300px;
+	display: flex;
+
+	flex-direction: row;
+	/*flex-direction: row-reverse;*/
+	/*flex-direction: column;*/
+	/*flex-direction: column-reverse;*/
+
+	flex-wrap = wrap; 
+	/*flex-wrap: wrap-reverse;*/
+
+	/*content-alignment*/
+	justify-content: center;
+	/*justify-content: flex-start;*/
+	/*justify-content: flex-end;*/
+	/*justify-content: space-between;*/
+	/*justify-content: space-around;*/
+
+	/*align-items: flex-start;*/
+	/*align-items: flex-end;*/
+	align-items: center;
+	/*align-items: stretch;*/
+	/*align-items: baseline;*/
+}
+
+.container-item{ 
+	background: rgb(230, 148, 71);
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	width: 60px;
+	margin: 10px;
+	line-height: 60px;
+}

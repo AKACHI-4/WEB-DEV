@@ -1,0 +1,81 @@
+h2:hover{
+	color: black;
+}
+
+#title {
+	color: red;
+}
+
+h2[id=about-me] {
+	color: chocolate;
+}
+
+.subtitle { 
+	color: violet;
+}
+
+/*li:first-child{
+	color: blue;
+}
+
+li:last-child{
+	color: cyan;
+}
+
+li:nth-child(2){
+	color: green;
+}
+
+li:only-child{
+	color: pink;
+}*/
+
+/* #google-link:link {
+	color: blue; 
+}
+
+#google-link:visited { 
+	color: red;
+} */
+
+/* doesn't matter whether they share same parent or not */
+h2 + a {
+	color: yellow;
+}
+
+/* general sibling selectors/combinators */
+textarea ~ button{ 
+	color: green;
+}
+
+/* specific element selector */
+ul > li{
+	color: red;
+}
+
+/* decendant selector */
+ul li{
+	color: blue;
+}
+
+img[src^="https://source.unsplash.com/"] {
+	border: 5px solid black;
+}
+
+/*img[src$="https://source.unsplash.com/y0YmwfJPi90/"] {
+	border: 5px solid black;
+}*/
+
+/*img[src*="source.unsplash.com/"] {
+	border: 5px solid black;
+}*/
+
+h2[class |= g]
+
+/* CSS Genral Rule */
+
+selector {
+	property: value;
+	property2: value2;
+}
+
