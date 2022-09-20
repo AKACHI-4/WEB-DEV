@@ -1,0 +1,93 @@
+body { 
+	background: rgba(204, 229, 255, 0.5);
+}
+
+img {
+	width: 400px;
+	height: 200px;
+}
+
+.content {
+	padding: 10px;
+	background: rgb(173, 214, 129);
+}
+
+#main {
+	display: grid;
+	grid-template-columns: 68% 30%;
+	grid-gap: 30px;
+}
+
+h1, h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+p, li { 
+	font-family: 'Lato', sans-serif;
+}
+
+h2 {
+	display: block;
+}
+
+.title {
+	font-size: 3em;
+	font-style: italic;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+#img-1 {
+	float: right;
+	margin: 15px;
+	height: 300px;
+}
+
+.image-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.image-grid > img{
+	margin: 10px;
+	transition: all 400ms ease;
+}
+
+.image-grid > img:hover{
+	width: 500px;
+	height: 250px;
+}
+
+#img-1 { 
+	transition: all 500ms ease;
+}
+
+#img-1:hover {
+	width: 50%;
+	height: 330px;
+}
+
+.sidebar {
+	background-color: rgb(124, 217, 211);
+}
+
+.post {
+	font-family: "Lato", sans-serif;
+	margin: 10px;
+	padding: 5px;
+	border: 2px solid rgb(229, 158, 66);
+	border-radius: 5px;
+	line-height: 20px;
+}
+
+.post > a{
+	color: rgb(186, 52, 97);
+ 	text-decoration: none;
+}
+
+.main-para {
+	width: 50%;
+}
+
